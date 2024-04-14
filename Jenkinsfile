@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/Hrishabh598/SpringPetClinic0'
+                git branch: 'main', url: 'https://github.com/Hrishabh598/SpringPetClinic'
             }
         }
         stage('Build'){
